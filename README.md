@@ -12,11 +12,11 @@ the attributes of the complex objects would change.
 
 The Attributes for the objects are as follows:
 JSON
-`[DataContract]
+```[DataContract]
 class ClassName {
 
    [DataMember(Name = "property_name", IsRequired = true/false, EmitDefaultValue = true/false, Order = integer)]
   public object PropertyName {
   ...
   }
-}`
+}```
